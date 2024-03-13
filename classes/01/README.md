@@ -212,7 +212,7 @@ Sobre o jogo:
 
     {{2}}
 <section>    
-Acesso:
+Acesso (LEIA ANTES DE CLICAR!):
 
 
 1. Você vai precisar se registrar com email e senha. **Guarde a senha!** 
@@ -221,7 +221,7 @@ Acesso:
 
 3. Caso as instruções e legendas não apareçam em português na página e/ou nos vídeos, selecione a língua manualmente (peça ajuda se não localizar onde selecionar).
 
-4. Você leu as 3 instruções anteriores? Então agora acesse a atividade: https://studio.code.org/join/FHKHHK?lang=pt-BR
+4. Você leu as 3 instruções anteriores? Então agora acesse a atividade: https://studio.code.org/join/TSRLYL?lang=pt-BR
 </section>
 
 
