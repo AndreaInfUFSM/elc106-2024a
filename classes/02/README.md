@@ -39,16 +39,25 @@ Aprender e trabalhar com programação requer algumas ferramentas
 O ambiente de trabalho não é necessariamente um local como este da foto, mas apenas de um computador (ou até um smartphone) com software básico para programação.
 
 
-### Compilador-Interpretador Python
+### Interpretador Python
 
 --{{0}}--
 <section>
-Além de um sistema operacional (Windows, Linux, MacOS, ...), seu computador precisa ter um compilador-interpretador Python instalado ou acessível pela rede.
-
-O **compilador-interpretador** Python é o software que recebe o código de um programa como entrada e faz com que o computador o execute. A **compilação** é uma etapa de **tradução** de código: um simples comando ou linha se traduz em várias instruções em um código que não precisamos enxergar, pois se destina a ser mais "compreensível" pelo computador. O **interpretador** recebe este código intermediário e gerencia sua execução. Ou seja, o interpretador Python executa junto com o programa em Python. 
-
-Para saber mais sobre isso, uma boa referência é o capítulo 3.3 do livro "Simplificando Algoritmos", de Andrés Menéndez (https://integrada.minhabiblioteca.com.br/reader/books/9788521638339).
+Para trabalhar com Python, precisamos de um software básico que entenda "faça o computador entender" esta linguagem.
 </section>
+
+--{{0}}--
+Um **interpretador** Python é o software que recebe o código de um programa como entrada e faz com que o computador o execute. 
+
+--{{0}}--
+A **compilação** é uma etapa de **tradução** de código: um simples comando ou linha se traduz em várias instruções em um código que não precisamos enxergar, pois se destina a ser mais "compreensível" pelo computador. 
+
+--{{0}}--
+O **interpretador** recebe este código intermediário e gerencia sua execução. Ou seja, o interpretador Python executa junto com o programa em Python. 
+
+--{{0}}--
+**Saiba mais**: capítulo 3.3 do livro "Simplificando Algoritmos", de Andrés Menéndez (https://integrada.minhabiblioteca.com.br/reader/books/9788521638339).
+
 
 - Software básico, obrigatório
 - Recebe o código de um programa como entrada
@@ -137,7 +146,7 @@ Outros
 
 ## Interpretador Python no modo interativo
 
-Lembra das tarefas básicas do computador: entrada, armazenamento, processamento, saída?
+Lembra das tarefas básicas do computador: entrada, armazenamento, **processamento**, saída?
 
 Nesta parte vamos enfatizar instruções do Python para **processamento** de cálculos.
 
@@ -151,7 +160,7 @@ Quando usamos o interpretador Python no modo interativo, digitamos comandos a pa
 
     {{1}}
 <section>    
-O que vai acontecer se digitarmos `5+5` no interretador?
+O que vai acontecer se digitarmos `5+5` no interpretador?
 
 ```python
 >>> 5+5
