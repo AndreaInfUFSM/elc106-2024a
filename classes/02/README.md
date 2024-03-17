@@ -20,6 +20,8 @@ translation: English  translations/English.md
 liascript-devserver --input README.md --port 3001 --live
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc106-2024a/master/classes/02/README.md)
+
 # Aula 02: Primeiro contato com Python
 
 Apertem os cintos, vamos decolar com Python: https://www.python.org/
