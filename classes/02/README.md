@@ -47,13 +47,8 @@ Para trabalhar com Python, precisamos de um software básico que entenda "faça 
 </section>
 
 --{{0}}--
-Um **interpretador** Python é o software que recebe o código de um programa como entrada e faz com que o computador o execute. 
+Um **interpretador** Python é um software que "lê" o código de um programa como entrada e faz com que o computador o execute. 
 
---{{0}}--
-A **compilação** é uma etapa de **tradução** de código: um simples comando ou linha se traduz em várias instruções em um código que não precisamos enxergar, pois se destina a ser mais "compreensível" pelo computador. 
-
---{{0}}--
-O **interpretador** recebe este código intermediário e gerencia sua execução. Ou seja, o interpretador Python executa junto com o programa em Python. 
 
 --{{0}}--
 **Saiba mais**: capítulo 3.3 do livro "Simplificando Algoritmos", de Andrés Menéndez (https://integrada.minhabiblioteca.com.br/reader/books/9788521638339).
@@ -69,39 +64,49 @@ O **interpretador** recebe este código intermediário e gerencia sua execução
 
               --{{0}}--
 <section>
-Outra ferramenta importante no seu ambiente de trabaho é o que chamamos de IDE, do inglês *Integrated Development Environment*. Um IDE integra 2 recursos essenciais para produtividade na programação: (1) uma área de edição de programas e (2) uma área de execução que aciona o compilador-interpretador. Outros recursos mais avançados também estão disponíveis, mas não nos interessam agora.
-
-Exemplos de IDEs para Python são IDLE (muito simples, instalado junto com o interpretador), PyCharm (ambiente profissional, com muitos recursos), Spyder, VS Code, entre outros.
+Outra ferramenta importante no seu ambiente de trabaho é o que chamamos de IDE, do inglês *Integrated Development Environment*. 
 </section>
+
+              --{{0}}--
+Um IDE integra 2 recursos essenciais para produtividade na programação: (1) uma área de edição de programas e (2) uma área de execução do programa. Outros recursos mais avançados também estão disponíveis, mas não nos interessam agora.
+
+              --{{0}}--
+Exemplos de IDEs para Python são IDLE (muito simples, instalado junto com o interpretador), PyCharm (ambiente profissional, com muitos recursos), Spyder, VS Code, entre outros.
+
 
 Ambiente integrado de desenvolvimento (IDE - *Integrated Development Environment*)
 
-- Editor: recursos de correção ortográfica, highlight de sintaxe, etc.
-- Console de execução do compilador-interpretador
-- Outros recursos avançados: depuração/tracing (execução passo-a-passo), controle de versão, etc.
-- Exemplos: IDLE, PyCharm, Spyder, VS Code
+- Editor: digitação do código, highlight de sintaxe, correção ortográfica, etc.
+- Console/Shell: execução, interação com interpretador
+- Outros recursos avançados
+- Exemplos: IDLE, PyCharm, Spyder, VS Code, etc.
+
+![Fonte: https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000781890-Quick-command-to-run-file-in-console-in-Pycharm-using-the-command-runfile](img/slbLZBpXvnXAPfb2eYIsFA.png)
 
 
 ### IDEs online
 
-              --{{0}}--
-<section>
+   --{{0}}--
 Uma tendência moderna são IDEs online, acessíveis pela internet usando apenas o navegador. A grande vantagem é que não precisamos instalar nada, mas dependemos da rede funcionando.
 
-Há vários IDEs online disponíveis gratuitamente. Um bom IDE online é o Repl.it, que tem bons recursos tanto para iniciantes como para quem quiser se aprofundar.
-</section>
+   --{{0}}--
+Há vários IDEs online disponíveis gratuitamente. Veremos alguns deles
+
 
 IDEs online: Repl.it, Trinket, etc.
 
+![](img/blog-hero-qlik-continues-its-investment-in-cloud-with-launch-of-london-and-frankfurt-cloud-regions.jpg)
 
-              --{{1}}--
+#### Repl.it
+
+              --{{0}}--
 <section>
  Um bom IDE online é o Repl.it, que tem bons recursos tanto para iniciantes como para quem quiser se aprofundar.
 </section>
 
-    {{1}}
-<section> 
-Repl.it
+    
+
+Repl.it: https://replit.com
 
 ![](img/replits.png)
 
@@ -110,16 +115,18 @@ Repl.it
 - Ambiente muito semelhante ao dos IDEs instaláveis localmente.
 - Bom para iniciantes e também para quem quer se aprofundar.
 
-</section> 
 
-              --{{2}}--
+
+#### Trinket
+
+              --{{0}}--
 <section>
  Outro IDE online bem simples é o Trinket. Vamos usá-lo nos primeiros exemplos porque conseguimos embutir este IDE dentro deste material didático, com rápida inicialização do ambiente (ao contrário do Repl.it, que leva mais tempo para iniciar).
 </section>
 
-    {{2}}
-<section> 
-Trinket
+    
+
+Trinket: https://trinket.io
 
 ![](img/trinkets.png)
 
@@ -127,14 +134,12 @@ Trinket
 - Usuário **autenticado** (cria conta com Sign Up e faz Log In) tem acesso a mais opções.
 - Ambiente simples, voltado para iniciantes.
 
-</section> 
 
 
 
 
-    {{3}}
-<section> 
-Outros
+#### Outros
+
 
 - PythonAnywhere (https://www.pythonanywhere.com/): ambiente gratuito simples, mas com planos pagos para uso profissional
 - Python Tutor (https://pythontutor.com): voltado para iniciantes, com visualização passo-a-passo da execução
@@ -142,9 +147,11 @@ Outros
 - Programiz (https://www.programiz.com/python-programming/online-compiler/): ambiente simples, acompanha curso online de Python
 - Jupyter Notebooks e Google Colab (https://colab.research.google.com/): plataforma interativa que permite combinar código, anotações e visualizações de dados (em Python ou outras linguagens) - não é especificamente um IDE para Python
 - Há muitos outros, mas atenção: ambientes simples demais escondem muitos detalhes e não valem muito a pena
-</section> 
+
 
 ## Interpretador Python no modo interativo
+
+> Imagine que o interpretador Python seja como uma calculadora, só que melhor!
 
 Lembra das tarefas básicas do computador: entrada, armazenamento, **processamento**, saída?
 
@@ -153,33 +160,36 @@ Nesta parte vamos enfatizar instruções do Python para **processamento** de cá
 
 ![https://www.techtudo.com.br/dicas-e-tutoriais/2019/07/cinco-dicas-e-truques-para-usar-a-calculadora-do-iphone-ios.ghtml](img/calc-x-python.png)
 
-> Imagine que o interpretador Python seja como uma calculadora, só que melhor!
 
-    --{{1}}--
+### Faça um teste
+
+    --{{0}}--
 Quando usamos o interpretador Python no modo interativo, digitamos comandos a partir do sinal de pronto (do inglês, *prompt*), `>>>`. O interpretador lê e executa o que é digitado.
 
-    {{1}}
-<section>    
+    
+ 
 O que vai acontecer se digitarmos `5+5` no interpretador?
 
 ```python
 >>> 5+5
 ```
-</section>  
 
-    {{2}}
-<section> 
+    
+
 Teste no interpretador!
 
 <iframe src="https://trinket.io/embed/python3/d52f952885?outputOnly=true&runOption=console&runMode=console" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+
 
 Observe que: 
 
 - Calculadora: usamos `=` para obter resultado
 - Interpretador Python: usamos `Enter` para obter resultado
-</section>  
+  
 
-    {{3}}
+### Mais testes
+    
 <section>     
 Que resultados o computador vai produzir nestes casos?
 
@@ -187,7 +197,6 @@ Que resultados o computador vai produzir nestes casos?
 - `34-1`
 - `5/2`
 - `5.0/2`
-- `5./2`
 - `5*5`
 - e este aqui? `5**2`
 
@@ -195,16 +204,26 @@ Teste no interpretador!
 
 <iframe src="https://trinket.io/embed/python3/d52f952885?outputOnly=true&runOption=console&runMode=console" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+</section> 
 
 
+### Teste mais!
+    
+<section>     
+Que resultados o computador vai produzir nestes casos?
 
+- `5./2`
+- e este aqui? `5../2`
+
+Teste no interpretador!
+
+<iframe src="https://trinket.io/embed/python3/d52f952885?outputOnly=true&runOption=console&runMode=console" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 </section> 
 
 
 
-
-### Operações aritméticas
+### Resumo de operações aritméticas
 
 
 <!-- data-type="none" -->
@@ -231,31 +250,40 @@ Você consegue prever qual será o resultado?
 - [( )] 5.0
 - [(x)] 7.0
 
+#### Resumo de regras        
 
-        {{1}}
-<section>
 Precedência (prioridade) na execução:
 
 1. Expressões entre parênteses
 2. Exponenciação
 3. Multiplicação, divisão e resto (módulo) - da esquerda para a direita
 4. Adição e subtração - da esquerda para a direita
-</section>
 
 
-        {{2}}
+#### Teste 1
+
+        
 <section>
 Qual será o resultado da expressão abaixo?
 
 ```python
 >>> 5*6/10+5*4/10
 ```
-- [(x)] 5.0
 - [( )] 3.2
+- [(x)] 5.0
+
 </section>
 
+Precedência (prioridade) na execução:
 
-        {{3}}
+1. Expressões entre parênteses
+2. Exponenciação
+3. Multiplicação, divisão e resto (módulo) - da esquerda para a direita
+4. Adição e subtração - da esquerda para a direita
+
+#### Teste 2
+
+      
 <section>
 Qual será o resultado da expressão abaixo?
 
@@ -266,7 +294,16 @@ Qual será o resultado da expressão abaixo?
 - [(x)] 1.0
 </section>
 
-        {{4}}
+Precedência (prioridade) na execução:
+
+1. Expressões entre parênteses
+2. Exponenciação
+3. Multiplicação, divisão e resto (módulo) - da esquerda para a direita
+4. Adição e subtração - da esquerda para a direita
+
+#### Teste 3
+
+        
 <section>
 Qual expressão em Python corresponde à expressão matemática abaixo?
 
@@ -281,7 +318,12 @@ $$ \sqrt{\frac{5+3}{1.5+0.5}} $$
 
 </section>
 
+Precedência (prioridade) na execução:
 
+1. Expressões entre parênteses
+2. Exponenciação
+3. Multiplicação, divisão e resto (módulo) - da esquerda para a direita
+4. Adição e subtração - da esquerda para a direita
 
 ### Usando funções
 
@@ -290,8 +332,9 @@ $$ \sqrt{\frac{5+3}{1.5+0.5}} $$
 ![](img/calcfunc-x-python.png)
 
 
-                 {{1}}
-************************************************
+#### Exemplos
+
+
 
 Exemplo de funções no interpretador Python:
 
@@ -305,30 +348,26 @@ Exemplo de funções no interpretador Python:
 - `pow(x,y)`: potenciação (equivale a `x**y`)
 - `abs(x)`: valor absoluto
 
-************************************************
 
 
-                 {{2}}
-************************************************
+#### Fundamentos
 
 Funções em Python:
 
-- Aumentam enormemente as possibilidades de programação!
+- Aumentam muuuuuuuuito as possibilidades de programação!
 - Inspiração em matemática: $ f(x) $ 
 - Relação entre conjuntos: elemento no conjunto domínio corresponde a outro no conjunto 
 
 Terminologia:
 
 - Valores entre parênteses: **argumentos/parâmetros**
-- Chamar a função: aplicar para obter um resultado
+- Chamar a função: aplicar a um ou mais argumentos para obter um resultado
 - Sinônimos: usar a função = aplicar a função = chamar a função
 
 
-************************************************
+#### Teste uma nova função
 
-                 {{3}}
-************************************************
-
+                 
 Você consegue prever qual será o resultado destas expressões no interpretador Python?
 
 ```python
@@ -342,25 +381,18 @@ Teste no interpretador!
 <iframe src="https://trinket.io/embed/python3/d52f952885?outputOnly=true&runOption=console&runMode=console" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
-************************************************
 
-                 {{4}}
-************************************************
+#### Bibliotecas de funções
 
-Existe uma enorme quantidade de funções pré-definidas!
+  
+- Existe uma enooooooooorme quantidade de funções pré-definidas!
+- A maioria delas está agrupada em **bibliotecas** de funções.
+- Há comandos em Python para indicar que queremos usar alguma biblioteca (`from`/`import`).
 
-A maioria delas está agrupada em **bibliotecas** de funções.
+#### Exemplo: biblioteca `math`
 
-Há comandos para indicar que queremos usar alguma biblioteca (`from`/`import`).
 
-> Veremos melhor mais adiante como usar bibliotecas de funções!
-
-************************************************
-
-                 {{5}}
-************************************************
-
-Por enquanto, um exemplo simples:
+Biblioteca `math` contém muitas funções comuns em matemática!
 
 ```python
 >>> sqrt(9)
@@ -378,18 +410,18 @@ Teste no interpretador!
 <iframe src="https://trinket.io/embed/python3/d52f952885?outputOnly=true&runOption=console&runMode=console" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
-************************************************
+
 
 
 ### Definindo funções
 
 
-> Mais do que usar funções já definidas, podemos **definir** nossas próprias funções!
+-  Mais do que usar funções já definidas, podemos **definir** nossas próprias funções!
+- Programas profissionais são compostos de muitas definições e chamadas de funções.
 
-> Programas profissionais são compostos de muitas definições e chamadas de funções.
 
+> Você consegue identificar um padrão (sintaxe de declaração) nos exemplos abaixo? 
 
-Exemplos de definições de funções:
 
 ```python
 def func0():
@@ -417,16 +449,12 @@ def func4(x, a, b, c):
    return a*x**2 + b*y + c
 ```
 
-> Você conseguiu identificar um padrão, uma regra na declaração de funções?
-
-                 {{1}}
-************************************************
-
-![](img/func-diagram.png)
+#### Sintaxe geral
 
 > Endentação (indent): recuos padronizados **obrigatórios** para demarcar linhas em um bloco de comandos
 
-************************************************
+![](img/func-diagram.png)
+
 
 
 
@@ -761,8 +789,7 @@ num = 3
 
 <summary>Clique para observações</summary>
 
-Blocos de instruções são executados em sequência. Quando trabalhamos com variáveis, a sequência lógica é a seguinte: primeiro guardamos algum valor na variável, depois usamos a variável. Neste exemplo de código, a sequência foi invertida e a variável foi usada antes de ter um valor, causando erro.
-
+Blocos de instruções são executados em sequência. Quando trabalhamos com variáveis, a sequência lógica é a seguinte: primeiro guardamos algum valor na variável, depois usamos a variável em alguma expressão. Neste exemplo de código, há um erro porque a sequência foi invertida e a variável foi usada antes de ter um valor.
 </details>
 
 
@@ -771,104 +798,32 @@ Blocos de instruções são executados em sequência. Quando trabalhamos com var
 
 
 
-### Exercícios
+## Exercícios
+
+
+Para fazer os exercícios, você precisa de um IDE como o Repl.it.
+
+Se você já tem alguma experiência com programação, você pode usar qualquer outro ambiente.
+
+
+### Entre no Repl.it
+
+
+Acesse o Repl.it: https://replit.com
 
 
 
-> Para fazer estes exercícios, você precisa entrar para o grupo da disciplina no Repl.it.
 
+### Complete o código
 
-#### Entre no grupo
+- Baixe o arquivo [main.py](main.py)
 
-Entrando no grupo, você vai ter acesso a uma área do Repl.it contendo arquivos para os exercícios.
+  - Este arquivo contém o enunciado dos exercícios e o início da definição de cada função
 
-Para entrar no grupo, clique em https://replit.com/teams/join/bzmdfmvrldnyymssuydqhwpkmoidivlo-elc106-2023a 
+- Siga as instruções no próprio código
 
+  - Sua tarefa será completar o código nos pontos marcados com "COMPLETE-ME".
 
+- Teste seu código
 
-
-#### Complete o código
-
-Quando você entrar no grupo, verá um arquivo `main.pỳ` contendo o enunciado dos exercícios e o início da definição de cada função. Sua tarefa será completar o código nos pontos marcados com "COMPLETE-ME".
-
-
-O enunciado dos exercícios está disponǘvel no Repl.it e também listado a seguir:
-
-1. Defina uma função chamada `media3`, que receba como parâmetros 3 números `x,y,z`  e retorne a média aritmética desses números.
-
-   Exemplo de uso:
-
-   ```
-   >>> media3(4,6,8)
-   6.0
- 
-   ```
-
-2. Defina uma função chamada `media4`, que receba como parâmetros 4 números `x,y,z,w`  e retorne a média aritmética desses números.
-
-   Exemplo de uso:
-
-   ```
-   >>> media4(1,2,3,4)
-   2.5
-   ```
-
-3. Defina uma função chamada `imc`, que calcule o Índice de Massa Corporal para um dado peso `p` (em quilogramas) e uma dada altura `h` (em metros). O IMC é calculado dividindo-se o peso pelo quadrado da altura.
-
-
-   Exemplo de uso:
-
-   ```
-   >>> imc(80, 1.70)
-   27.68166089965398
-
-   ```
-
-4. Defina uma função chamada `distanciapt`, que calcule a distância entre 2 pontos A e B em um plano. Essa função deverá receber 4 parâmetros representando coordenadas `xa,ya` do ponto A e `xb,yb` do ponto B. A distância deve ser calculada pela seguinte expressão: 
-   $ \sqrt{(xb-xa)^2 + (yb-ya)^2} $
-
-   Exemplo de uso:
-
-   ```
-   >>> distanciapt(2,3,2,3)
-   0.0
-
-   ```
-
-5. Defina uma função chamada `days2sec`, que converta dias em segundos. Essa função deve receber como parâmetro um número `d` representando uma quantidade de dias e retornar o número equivalente em segundos.
-
-   Exemplo de uso:
-
-   ```
-   >>> days2sec(2)
-   172800
-
-   ```
-
-6. Suponha que, em um restaurante próximo à Universidade, o preço do quilo no buffet seja de R$ 57,90. Defina uma função chamada `prato` que receba um peso `p` em gramas de uma porção servida no buffet e retorne o preço a pagar.
-
-   Exemplo de uso:
-
-   ```
-   >>> prato(400)
-   23.16
-
-   ```
-
-7. Suponha que você tenha passado em uma disputada seleção para um cargo na área de *data science* de uma empresa multinacional. Parabéns! Logo no primeiro ano na empresa, você faz uma viagem a trabalho no exterior. Quando chega no hotel depois de uma longa viagem, você nota que o quarto está frio. Você verifica o termostato do ar condicionado e percebe que está indicando 53.6 graus Fahrenheit. 
-
-   Qual será a temperatura do quarto em Celsius? Para calcular isso, defina uma função chamada `f2c` que receba uma temperatura `t` em Fahrenheit e retorne o equivalente em Celsius. Para converter, subtraia 32 de `t` e multiplique o resultado por 5/9.
-
-   Exemplo de uso:
-
-   ```
-   >>> f2c(53.6)
-   12.0
-
-   ```
-
-8. Agora defina outra função `c2f` para fazer a conversão inversa, e assim descobrir como ajustar o termostato para uma temperatura equivalente a agradáveis 22 graus Celsius. Essa função deverá multiplicar a temperatura `t` por 9/5 e adicionar 32.
-
-9. Depois de definir todas estas funções, use cada uma delas no final do programa, junto com o comando `print`, aplicando-as a valores à sua escolha. Pelo menos um dos valores deverá estar armazenado em uma variável. Além disso, você deve acrescentar pelo menos um `print` com texto. 
-
-
+  - Você sempre deve **executar** seu código (botão Run) para verificar se está correto!
