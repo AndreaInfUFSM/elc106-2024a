@@ -1,0 +1,87 @@
+/* :root {
+  --main-bg-color: #FF0000;
+} */
+
+/* body {
+  font-family: 'Quattrocento Sans', sans-serif !important;
+} */
+
+/* h1.lia-h1 {
+  font-size:5vw !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+} */
+
+/* #lia-spacer-right {
+  background-image: url("https://liascript.github.io/img/logo.png") !important;
+  background-position: center !important;
+  background-size: 36px !important;
+  background-repeat: no-repeat !important;
+} */
+
+/* .lia-font-scale-3  {
+  
+  font-size: 24px !important;
+  --font-size-multiplier: 1 !important;
+  
+
+  
+}  */
+
+
+.lia-paragraph {
+  font-size: 28px !important;
+}
+
+.lia-label {
+  font-size: 28px !important;
+}
+
+
+/* 
+.lia-content{
+  background-image: url("https://liascript.github.io/img/logo.png") !important;
+  background-size: 200px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+} */
+
+/* .lia-toolbar {
+  background: var(--main-bg-color) !important;
+} */
+
+/* .lia-btn {
+  background: var(--main-bg-color) !important;
+} */
+
+/* .lia-input {
+  background: var(--main-bg-color) !important;
+} */
+
+/* .lia-active {
+  background: var(--main-bg-color) !important;
+} */
+
+/* .lia-quote {
+  background: var(--main-bg-color) !important;
+  border-left-color: #990000 !important;
+  color: #FFFFFF !important
+} */
+
+/* .lia-accordion {
+  background: var(--main-bg-color) !important;
+  font-size: 12px !important;
+} */
+
+/* .lia-accordion-dummy {
+  background: var(--main-bg-color) !important;
+  font-size: 12px !important;
+} */
+
+/* .lia-quiz {
+  border-color: var(--main-bg-color) !important;
+} */
+
+/* .lia-link {
+  color: #00FF00 !important
+} */
