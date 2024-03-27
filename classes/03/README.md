@@ -25,7 +25,7 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
           https://fonts.googleapis.com/css?family=Abril%20Fatface
 
 -->
-
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc106-2024a/master/classes/03/README.md)
 
 # Aula 03
 
