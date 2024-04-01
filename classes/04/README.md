@@ -34,7 +34,7 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
 
 - Inicie visualizando a seção de Revisão.
 
-- Hoje: comentários sobre exercícios entregues, mais sobre condicionais, execução passo-a-passo, exercícios
+- Hoje: muita revisão, testes de conhecimento, execução passo-a-passo, mais sobre condicionais, exercícios
 
 
 
