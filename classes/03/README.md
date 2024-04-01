@@ -48,7 +48,7 @@ Principais assuntos da aula passada:
 ### Solução dos exercícios
 
 
-- Abra este arquivo com solução dos exercícios da aula anterior: [main.py](src/aula02-main.py)
+- Abra este arquivo com solução dos exercícios da aula anterior: [aula02_solucoes.py](src/aula02_solucoes.py)
 - Copie a solução para o Repl.it
 - Execute o programa no Repl.it
 
@@ -586,7 +586,7 @@ Acesse o Repl.it: https://replit.com
 
 ### Complete o código
 
-- Baixe o arquivo [aula03-main.py](src/aula03-main.py)
+- Baixe o arquivo [aula03_exercicios.py](src/aula03_exercicios.py)
 
   - Este arquivo contém o enunciado dos exercícios e o início da definição de cada função
   
@@ -605,4 +605,4 @@ Acesse o Repl.it: https://replit.com
   - Você sempre deve **executar** seu código para verificar se está correto!
 
      - Opção 1: Use a aba "Console" no Repl.it e clique em Run ou Ctrl-Enter
-     - Opção 2: Use a aba "Shell" no Repl.it e digite `python aula03-main.py` (clicando Enter depois)
+     - Opção 2: Use a aba "Shell" no Repl.it e digite `python aula03_exercicios.py` (clicando Enter depois)

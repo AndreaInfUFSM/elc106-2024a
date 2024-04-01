@@ -78,7 +78,7 @@ print('********** PARTE 5 **********')
 """
 Escreva abaixo um programa que:
 - Complete a função chamada `temfebre` para retornar "sim' ou "não" após
-  verificar se uma dada temperatura corporal representa febre (veja instruções mais abaixo)
+  verificar se uma dada temperatura corporal representa febre (veja referência sobre isso mais abaixo)
 - Gere 2 números fracionários representando temperaturas entre 35 e 40, arredondando-os
   com 1 casa decimal e armazenando-os em variáveis
 - Use a função `temfebre` com as temperaturas geradas
@@ -88,6 +88,9 @@ A saída deste programa deve ser exatamente neste formato a seguir, adaptado
 conforme os números gerados:
   Temperatura: 39.8 Tem febre? sim
   Temperatura: 36.9 Tem febre? não
+
+Como saber se tenho febre?
+https://drauziovarella.uol.com.br/doencas-e-sintomas/febre/
 """
 
 
