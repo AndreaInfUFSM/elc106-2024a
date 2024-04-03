@@ -165,7 +165,7 @@ Soluções:
 
 ## Teste seu conhecimento
 
-Duas atividades para você testar o que já sabe sobre o maravilhoso mundo dos algoritmos e programação em Python!
+A seguir, atividades para você testar o que já sabe sobre o maravilhoso mundo dos algoritmos e programação em Python!
 
 ### Python em ação
 
@@ -588,7 +588,11 @@ print(classifimc(peso,altura))
 - Operadores: `and`, `or`, `not`
 - Cada operando é uma condição que resulta `True` ou `False`
 
-#### Exemplos
+
+
+
+
+#### Exemplos (1)
 
 Considere `x = 4`:
 
@@ -603,7 +607,26 @@ Teste no **interpretador**!
 
 <iframe src="https://trinket.io/embed/python3/d52f952885?outputOnly=true&runOption=console&runMode=console" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+#### Exemplos (2)
 
+Considere 2 variáveis: `temperatura` (graus Celsius), `chuva` (precipitação em mm)
+
+Hoje: `temperatura = 29`, `chuva = 0`
+
+<!-- data-type="none" -->
+| Operador   | Significado    | Exemplo    | Resultado   |
+| :--------- | :------------  | :--------- | :--------- |
+| `and`       | "e" lógico    | temperatura > 25 and chuva == 0     | `True`    |
+| `and`       | "e" lógico    | temperatura > 25 and chuva > 0     | `False`    |
+| `or`      | "ou" lógico      | temperatura < 20 or chuva >= 0     | `True`     |
+| `or`      | "ou" lógico      | temperatura < 20 or chuva > 10     | `False`     |
+| `not`        | negação          | not chuva > 10      | `True` |
+| `not`        | negação          | not temperatura > 25 and chuva > 10     | `False` |
+| `not`        | negação          | not (temperatura > 25 and chuva > 10)     | `True` |
+
+Teste no **interpretador**!
+
+<iframe src="https://trinket.io/embed/python3/d52f952885?outputOnly=true&runOption=console&runMode=console" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Tabelas-verdade
 
@@ -640,6 +663,24 @@ Este jogo não usa Python, mas basta usar esta "tradução" dos operadores lógi
 - `!` significa `not`
 
 
+
+## Resumo de novidades
+
+- Condicionais: 
+
+  - uso de `elif` para simplificar casos com muitas condições
+  - operadores lógicos: `and`, `or`, `not`
+
+
+- Novas funções
+
+  - Função `len`: retorna a quantidade de itens de um conjunto de dados (por exemplo, o texto "Hello" é um conjunto de 5 caracteres)
+
+    - Veja [Quiz](#quiz), exercício 6
+
+  - Função `choice`: seleciona aleatoriamente (sorteia) um item em um conjunto de dados
+
+    - Veja [Exercícios](#complete-o-código) para completar no Repl.it, questão 7
 
 ## Exercícios
 
@@ -679,4 +720,6 @@ Acesse o Repl.it: https://replit.com
 
      - Opção 1: Use a aba "Console" no Repl.it e clique em Run ou Ctrl-Enter
      - Opção 2: Use a aba "Shell" no Repl.it e digite `python aula04_exercicios.py` (clicando Enter depois)
+
+
 
