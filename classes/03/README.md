@@ -48,7 +48,7 @@ Principais assuntos da aula passada:
 ### Solução dos exercícios
 
 
-- Abra este arquivo com solução dos exercícios da aula anterior: [aula02_solucoes.py](src/aula02_solucoes.py)
+- Abra este arquivo com solução dos exercícios da aula anterior: [aula02\_solucoes.py](src/aula02_solucoes.py)
 - Copie a solução para o Repl.it
 - Execute o programa no Repl.it
 
