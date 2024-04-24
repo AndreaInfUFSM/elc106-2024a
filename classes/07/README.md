@@ -91,7 +91,6 @@ Lulu
 nome idade ano
 ```
 
-
 (c)
 
 ```
@@ -105,15 +104,12 @@ Lulu terá 9 anos em 2025
 
 ************************************************
 
-
-
-               
                  {{3}}
 ************************************************
 
 Quando o código abaixo for executado, qual será sua saída (ou seja, o que exatamente será mostrado na tela)?
 
-```python
+``` python
 from math import sqrt
 
 r = sqrt(9)
@@ -127,16 +123,17 @@ print(r + s)
 - [(x)] 9.0
 - [( )] 10.0
 
+************************************************
+               
 
+
+
+    {{4}}
 ************************************************
 
+Quando o código abaixo for executado, qual será sua saída (ou seja, o que exatamente será mostrado na tela)? Explique passo-a-passo.
 
-                 {{4}}
-************************************************
-
-Quando o código abaixo for executado, qual será sua saída (ou seja, o que exatamente será mostrado na tela)?
-
-```python
+``` python
 r = 10
 s = 20
 print(r + 2 + s)
@@ -145,6 +142,7 @@ print(r)
 ```
 
 ************************************************
+
 
 
 ### Exercícios com estruturas condicionais
@@ -284,9 +282,20 @@ Listas em Python são tipos de dados compostos, contendo um conjunto de elemento
 
 Podemos nomear uma variável do tipo lista como fazemos com qualquer outra variável. Para definir valores, devemos usar colchetes para delimitar os elementos. Por exemplo: `letras = ['a', 'b', 'c']`.
 
-Para acessar os elementos de uma lista, usamos o nome da variável seguido de colchetes. O primeiro elemento de uma lista sempre terá índice 0, o segundo terá índice 1, e assim por diante. Por exemplo: `letras[0]` acessa o elemento `a`,`letras[1]` acessa o elemento `b`, etc.
+Para acessar os elementos de uma lista, usamos o nome da variável seguido de colchetes. O primeiro elemento de uma lista sempre terá índice 0, o segundo terá índice 1, e assim por diante. 
 
-Sabendo disso, considerando a lista `colors = ["red", "green", "blue", "pink", "yellow"]`, qual das opções abaixo acessa o elemento `pink`?
+Por exemplo, na lista `letras`:
+
+- `letras[0]` acessa o elemento `'a'`,
+- `letras[1]` acessa o elemento `'b'`, etc.
+
+Sabendo disso, considere a lista:
+
+``` python
+colors = ["red", "green", "blue", "pink", "yellow"]
+```
+
+Qual das opções abaixo acessa o elemento `pink`?
 
 - [( )] elemento = colors["pink"]
 - [( )] elemento = lista[1]
@@ -329,10 +338,10 @@ y = [9,10]
 z = [sqrt(9)]
 ```
 
-- [( )] w
-- [( )] x
-- [(x)] y
-- [(x)] z
+- [[ ]] w
+- [[ ]] x
+- [[x]] y
+- [[x]] z
 
 
 
@@ -348,6 +357,7 @@ z = [sqrt(9)]
 Deseja-se sortear 100 números inteiros de 1 a 6 e guardá-los em uma lista. Qual dos códigos abaixo resolve este problema?
 
 (a)
+
 ``` python
 from random import randint
 i = 1
@@ -359,6 +369,7 @@ print(len(lista))
 ```
 
 (b)
+
 ``` python
 from random import randint
 i = 0
@@ -368,6 +379,7 @@ while i < 100:
   i += 1  
 print(len(lista))
 ``` 
+
 - [( )] (a)
 - [(x)] (b)
 
@@ -387,7 +399,6 @@ while i < 4:
 print(n) 
 ```
 
- 
 - [(x)] 60
 - [( )] 40
 - [( )] 10
@@ -409,7 +420,6 @@ while True:
     break
 print(i) 
 ```
-
 - [( )] 16 
 - [(x)] 10
 - [( )] 8
