@@ -77,6 +77,7 @@ print(nome, 'terá', idade+n, 'anos em', ano+n)
 ```
 
 (a)
+
 ```
 2020
 4 
@@ -85,12 +86,14 @@ Lulu
 ```
 
 (b)
+
 ```
 nome idade ano
 ```
 
 
 (c)
+
 ```
 Lulu tinha 4 anos em 2020
 Lulu terá 9 anos em 2025
