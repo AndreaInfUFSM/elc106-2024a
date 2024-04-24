@@ -31,7 +31,7 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
 
 # Aula 07
 
-- Muitos exercícios
+- Muitos exercícios: variáveis, condicionais, funções, listas, repetição/loops
 - Dinâmica: missão possível
 
 
