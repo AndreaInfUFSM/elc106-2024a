@@ -44,7 +44,7 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
 
 ## Solução de exercícios
 
-Solução de exercícios de escrita de código: [aula07_solucoes.py](src/aula07_solucoes.py)
+Solução de exercícios de escrita de código: [aula07\_solucoes.py](src/aula07_solucoes.py)
 
 Vamos construir as soluções no Repl.it!
 
