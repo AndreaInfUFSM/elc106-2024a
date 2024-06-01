@@ -26,7 +26,7 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc106-2024a/master/classes/07/README.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc106-2024a/master/classes/09/README.md)
 
 
 # Exercícios de Revisão
@@ -36,6 +36,7 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
 - [Exercícios com funções](#3-exercícios-com-funções)
 - [Exercícios com repetição](#4-exercícios-com-repetição-while)
 - [Exercícios com listas](#5-exercícios-com-listas)
+- [Homework](#6-homework)
 
 ## 1 Exercícios com variáveis
 
@@ -742,6 +743,59 @@ Complete a função `contem2` no código abaixo, de forma que retorne `True` se 
 
 
 
+
+
+## 6 Homework
+
+
+Nesta parte, temos exercícios extraclasse com foco em escrita de código.
+
+**IMPORTANTE** 
+
+- Resolva cada exercício incrementalmente, usando como referência outros códigos de exemplo que você consegue ler e entender.
+- Resista à tentação de usar geradores de código e soluções prontas - você está exercitando a **sua inteligência** (que tende a estagnar se você usá-la pouco 😎)
+
+
+### Exercício 6.1 
+
+Escreva um programa que inicie sorteando um número e, depois, use a função `input` repetidamente, solicitando que o usuário digite um número para tentar adivinhar o número sorteado. Quando o usuário acertar o número, mostre uma mensagem e interrompa a repetição.
+
+Dicas:
+
+- Revise exemplos de repetições com `while`, com atenção às condições usadas para continuar a repetição
+- Pense no bloco de instruções que deve ser repetido
+- Revise a endentação do seu código, lembrando que cada bloco recuado está "sob influência" de um comando mais acima (`while`, `if`, etc.)
+
+
+### Exercício 6.2
+
+Escreva uma função `def geralista(n):` que retorne uma lista contendo `n` números gerados aleatoriamente. Depois de definir a função, utilize-a para gerar e mostrar uma lista com 5 números e outra lista com 10 números. 
+
+Dicas:
+
+- Você vai precisar de diferentes variáveis
+- Inicie com uma lista vazia (`[]`)
+- Revise as funções que manipulam listas, em especial a função `append`
+
+### Exercício 6.3
+
+Escreva uma função `def desviopadrao(lista):` que receba uma lista de números como parâmetro e retorne o desvio padrão do conjunto de números. Você não deve usar funções prontas que fazem os cálculos - seu objetivo é pensar no algoritmo e expressá-lo em Python. Teste sua função, escrevendo um código simples que calcula o desvio padrão de uma lista à sua escolha (você pode enumerar os elementos manualmente ou usar a função `geralista`).
+
+Dicas:
+
+- Antes de resolver este exercício, você deve ter resolvido os exercícios de cálculo de somatório e cálculo de média
+- Pesquise a fórmula do desvio padrão antes de começar a escrever seu código!
+
+
+
+### Exercício 6.4
+
+Escreva uma função `def filtrapalavras(lista):` que receba uma lista de palavras (por exemplo: ["tenha", "um", "bom", "dia"]) e retorne outra lista contendo apenas as palavras com mais de 2 caracteres (nesse exemplo, ["tenha", "bom", "dia"]).
+
+Dicas:
+
+- Este é um exercício que usa repetição para percorrer a `lista` elemento por elemento.
+- Você vai precisar construir uma nova lista adicionando nela apenas as palavras que satisfizerem a condição.
 
 
 
