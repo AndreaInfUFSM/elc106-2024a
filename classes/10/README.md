@@ -217,6 +217,7 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
 
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc106-2024a/master/classes/10/README.md)
 
 # Aula 10
 
