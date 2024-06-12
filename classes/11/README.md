@@ -227,7 +227,7 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
 
 ## Revisão 
 
-
+Avance para ver soluções de exercícios da aula passada e novos exercícios de revisão.
 
 ### Correção da questão de concurso
 
@@ -582,6 +582,18 @@ Execute este programa passo-a-passo no [Python Tutor](https://pythontutor.com/vi
 
 
 
+### Solução de exercícios
+
+Soluções para os exercícios de escrita de código propostos na aula passada:
+
+- [Exercício 1](src/aula10_solucao_ex1.py)
+- [Exercício 2](src/aula10_solucao_ex2.py)
+- [Exercício 3](src/aula10_solucao_ex3.py)
+- [Exercício 4](src/aula10_solucao_ex4.py)
+- [Exercício 5](src/aula10_solucao_ex5.py)
+- [Exercício 6](src/aula10_solucao_ex6.py)
+- [Exercício 7](src/aula10_solucao_ex7.py)
+
 ### Vídeo
 
 > Ative legenda automática em português!
@@ -787,7 +799,10 @@ for w in ['happ', 'bus']:
 @Pyodide.eval
 
 
+Observações:
 
+- Note a concatenação de strings: `w+s`
+- Veja no comentário uma outra forma de formar novas strings: `f'{w}{s}'` (recurso chamado f-string em Python)
 
 
 #### Outro exemplo
@@ -889,3 +904,14 @@ Digite n: 6
 5 elefantes incomodam muita gente
 6 elefantes incomodam, incomodam, incomodam, incomodam, incomodam, incomodam muito mais
 ```
+
+
+### Exercício 3
+
+Deseja-se escrever uma função que receba uma lista de palavras e retorne o total de vogais minúsculas destas strings. Por exemplo, se a lista for `['roxo', 'amarelo', 'verde']`, o resultado da função será 8. 
+
+O código abaixo resolve este problema, mas está embaralhado. Desembaralhe o código para que funcione como esperado. Clique em "Get feedback" para verificar sua solução.
+
+
+<iframe src="https://parsons.problemsolving.io/puzzle/a09df6fec5c5480ea71fab713ffd06c0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
