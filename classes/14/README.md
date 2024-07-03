@@ -222,6 +222,12 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
 # Aula 14
 
 
+Nesta aula:
+
+- Manipulação de dados em arquivos
+- Biblioteca `csv`
+- Biblioteca `matplotlib`
+- Exercícios
 
 
 ## Manipulando dados em arquivos
@@ -288,7 +294,7 @@ Operações básicas:
 - Função `writer` retorna um tipo de variável com capacidade de escrita em arquivo CSV
 - Função `reader` retorna um tipo de variável com capacidade de leitura
 
-```python
+``` python
 import csv
 
 f = open('notas.csv', 'w')
@@ -322,7 +328,7 @@ Saiba mais em: https://cienciaprogramada.com.br/2021/08/iteradores-e-iteraveis-e
 
 
 
-```python
+``` python
 import csv
 
 f = open('notas.csv', 'w')
@@ -353,7 +359,7 @@ f.close()
 
 Escrita e leitura de arquivo usando biblioteca `csv`
 
-```python
+``` python
 import csv
 
 f = open('matrix.csv', 'w')
@@ -379,7 +385,7 @@ print(f'This matrix has {len(matrix)} rows and {len(matrix[0])} columns')
 
 Combinando CSV com a biblioteca `requests`
 
-```python
+``` python
 import requests
 import csv
 
@@ -408,7 +414,7 @@ Saiba mais em...
 - Sem salvar arquivo em disco
 - Trabalhando com delimitadores
 
-```python
+``` python
 import requests
 import csv
 
@@ -516,6 +522,11 @@ plt.show()
 
 ### Com `csv`
 
+Observações:
+
+- O código abaixo precisa ser copiado para o Repl.it
+- Coloque também no Repl.it este arquivo: [prova2cols.csv](src/prova2cols.csv)
+
 ```python
 import csv
 import matplotlib.pyplot as plt
@@ -548,7 +559,6 @@ plt.ylabel('Nota')
 plt.title('Notas em Leitura de Código')
 plt.show()
 ```
-@Pyodide.eval
 
 
 
@@ -602,3 +612,6 @@ Dica: armazene todos os dados do arquivo em uma matriz (lista de listas), pois i
 
 
 
+### Exercício 4
+
+Escreva um programa que processe o arquivo [presencas.csv](src/presencas.csv) e mostre algum gráfico à sua escolha, usando todos os dados ou somente uma parte deles.
