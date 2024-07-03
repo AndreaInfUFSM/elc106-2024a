@@ -18,7 +18,7 @@ translation: English  translations/English.md
 link:     custom.css
           https://fonts.googleapis.com/css?family=Quattrocento%20Sans
 
-script:   https://cdn.jsdelivr.net/pyodide/v0.26.1/full/pyodide.js
+script:   https://cdn.jsdelivr.net/pyodide/v0.24.0/full/pyodide.js
 
 
 @Pyodide.exec: @Pyodide.exec_(@uid,```@0```)
@@ -456,7 +456,7 @@ Há funções na biblioteca `matplotlib` para construir diversos tipos de gráfi
 
 ### Gráfico de linha
 
-```python
+``` python
 import matplotlib.pyplot as plt
 
 x = [0,1,2,3,4,5,6,7] 
@@ -473,7 +473,7 @@ plt.show()
 
 ### Gráfico de dispersão
 
-```python
+``` python
 import matplotlib.pyplot as plt
 
 # Data from:
