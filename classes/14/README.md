@@ -469,6 +469,7 @@ x = [0,1,2,3,4,5,6,7]
 #x = range(8)
 y = x
 
+plt.close('all')
 plt.plot(x, y)
 plt.xlabel('X')
 plt.ylabel('Y')
@@ -489,6 +490,7 @@ experience = [1, 3, 4, 5, 5, 6, 7, 10, 11, 12, 15, 20, 25, 28, 30,35]
 
 salary = [20000, 30000, 40000, 45000, 55000, 60000, 80000, 100000, 130000, 150000, 200000, 230000, 250000, 300000, 350000, 400000]
 
+plt.close('all')
 plt.scatter(experience,salary)
 plt.xlabel('Experience')
 plt.ylabel('Salary')
@@ -507,6 +509,7 @@ import matplotlib.pyplot as plt
 prova = ['Leitura', 'Escrita']
 media = [8.5,7]
 
+plt.close('all')
 plt.bar(prova, media)
 #plt.bar(prova, media, color='green')
 #plt.barh(prova, media)
