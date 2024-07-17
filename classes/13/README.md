@@ -560,6 +560,8 @@ Veja a seguir as orientações sobre as próximas avaliações.
 
 - Opcionalmente, caso você se interesse em ir além do que é visto em aula, ou até mesmo adiantar alguma entrega, você pode combinar com a professora outro(s) exercício(s), em substituição àqueles propostos em aula
 
+- O terceiro screencast deve, preferencialmente, abordar o projeto final (todo ou parte do código do projeto)
+
 - A avaliação levará em conta a atenção aos requisitos, a explicação / demonstração e o alinhamento do grau de dificuldade com as avaliações anteriores
 
 - Sugestão de software para gravação de screencast: Loom (https://www.loom.com/signup), ou procure por outros similares
