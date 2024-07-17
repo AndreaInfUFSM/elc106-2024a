@@ -569,4 +569,32 @@ Veja a seguir as orientações sobre as próximas avaliações.
 - O projeto final consistirá na proposta e desenvolvimento incremental de um programa em Python, a fim de resolver um problema e/ou explorar outros recursos de programação (bibliotecas, funções, etc.)
 - A proposta deve ser enviada no Moodle e validada pela professora
 - O trabalho poderá ser desenvolvido de forma individual ou em dupla, mas a nota será individual, baseada no progresso, contribuição e aproveitamento de cada estudante, em coerência com as avaliações anteriores, verificado durante as aulas e na apresentação
-- Data de apresentação: a definir, em função do novo calendário da UFSM
+- Data de apresentação: 24/07/2024
+
+
+
+<h4>Apresentação</h4>
+
+- O programa deverá ser demonstrado para a turma usando o Repl.it (ou qualquer ferramenta que permita executar o programa).
+- Em aproximadamente 5 minutos, deve ser explicado/mostrado:
+
+  - A proposta / enunciado do problema (o que o programa resolve)
+  - O processo de resolução (detalhar também recursos/ferramentas auxiliares, prompts usados, etc.)
+  - Uma ou mais execuções do programa
+  - Detalhamento de algumas linhas de código consideradas mais "difíceis" de entender
+  
+- Em caso de trabalho em dupla, cada integrante deve participar, alternando momentos de fala e de operação no computador
+
+
+<h4>Rubricas de avaliação</h4>
+
+
+
+<!-- data-type="none" -->
+| Descrição   | Nota   |
+| :--------- | :--------- |
+| Trabalho completamente alinhado com as instruções, demonstrando domínio de lógica e recursos de programação | 10 |
+| Trabalho aderente a algumas instruções ou com demonstração de domínio parcial de recursos de programação  | 7 a 9 |
+| Trabalho desalinhado com instruções ou com demonstração de pouco domínio de lógica e programação, mas com progresso evidente em relação a outras avaliações  | 5 a 7 |
+| Trabalho muito distante das instruções  | < 5  |
+| Trabalho não entregue ou com indícios de desonestidade acadêmica   | 0 |
